@@ -1,0 +1,50 @@
+! Colors
+*background: #272822
+*foreground: #f8f8f2
+
+! Black + DarkGrey
+*color0:  #75715e
+*color8:  #272822
+! DarkRed + Red
+*color1:  #f92672
+*color9:  #f92672
+! DarkGreen + Green
+*color2:  #a6e22e
+*color10: #a6e22e
+! DarkYellow + Yellow
+*color3:  #f4bf75
+*color11: #f4bf75
+! DarkBlue + Blue
+*color4:  #66d9ef
+*color12: #66d9ef
+! DarkMagenta + Magenta
+*color5:  #ae81ff
+*color13: #ae81ff
+! DarkCyan + Cyan
+*color6:  #2AA198
+*color14: #2AA198
+! LightGrey + White
+*color7:  #f9f8f5
+*color15: #f8f8f
+
+URxvt.colorIT:      #87af5f
+URxvt.colorBD:      #d7d7d7
+URxvt.colorUL:      #87afd7
+
+! Scrolling
+URxvt*scrollstyle:plain
+URxvt*scrollBar: false
+
+urxvt*saveLines:50000
+urxvt*loginShell:true
+urxvt*inheritPixmap: true
+urxvt*tintColor: white
+urxvt*transparent:true
+urxvt*shading:40
+
+URxvt.font: xft:Ubuntu Mono:size=10
+URxvt.perl-ext-common: default,matcher,selection-to-clipboard
+URxvt.urlLauncher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.matcher.pattern.1: \bwww\.[\w-]\.[\w./?&@#-]*[\w/-]
+
