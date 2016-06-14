@@ -42,6 +42,7 @@ urxvt*tintColor: white
 urxvt*transparent:true
 urxvt*shading:40
 
+URxvt.termName: xterm-256color
 URxvt.font: xft:Ubuntu Mono:size=10
 URxvt.perl-ext-common: default,matcher,selection-to-clipboard
 URxvt.urlLauncher: /usr/bin/firefox
